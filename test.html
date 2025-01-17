@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nineteen J Services</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #f0f0f0;
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #00d4ff;
+        }
+
+        /* Header */
+        header {
+            background: #0a0a0a;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #00d4ff;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #f0f0f0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #111111;
+            padding: 10px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        nav a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            color: #f0f0f0;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #00d4ff;
+            color: #111111;
+            border-radius: 5px;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #00d4ff;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #222222;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Button Styles */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #00d4ff;
+            color: #111111;
+            border-radius: 8px;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s ease;
+            margin: 20px 10px;
+        }
+
+        .button:hover {
+            background-color: #008c9e;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background: #0a0a0a;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 20px;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        footer p {
+            font-size: 1em;
+            color: #888888;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Nineteen J Services</h1>
+        <p>Vos documents, notre priorité</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Accueil Section -->
+    <section id="accueil">
+        <h2>Bienvenue chez Nineteen J Services</h2>
+        <p>Nous offrons des services de rédaction et de création pour tous vos besoins. Nous nous engageons à fournir des services de haute qualité, réalisés dans les délais les plus courts.</p>
+        <p>Que ce soit pour un CV, une rédaction académique ou des documents professionnels, vous êtes au bon endroit.</p>
+        <a href="#services" class="button">Demander un service</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Rédaction de documents (Word, Excel, PDF)</li>
+            <li>Création de CV professionnels</li>
+            <li>Conception de publications</li>
+            <li>Rédaction de rapports et mémoires</li>
+            <li>Consultation et assistance pour vos projets écrits</li>
+        </ul>
+        <a href="#contact" class="button">Nous contacter</a>
+    </section>
+
+    <!-- À propos Section -->
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+        <p>Nineteen J Services est une entreprise spécialisée dans la rédaction et la création de documents. Nous mettons un point d'honneur à satisfaire nos clients avec des services rapides, professionnels et sur mesure.</p>
+        <p>Nous travaillons avec vous pour vous offrir un service adapté à vos besoins spécifiques, en garantissant une livraison rapide et de qualité.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email : wilfriedodessi@gmail.com</p>
+        <p>Téléphone : 0748882477</p>
+        <p>Ou contactez-nous directement sur WhatsApp :</p>
+        <a href="https://wa.me/0748882477" class="button" target="_blank">Discuter sur WhatsApp</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nineteen J Services. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
